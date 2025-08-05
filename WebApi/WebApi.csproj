@@ -20,7 +20,7 @@
     <ProjectReference Include="..\Entity\Entity.csproj" />
     <ProjectReference Include="..\Presentation\Presentation.csproj" />
     <ProjectReference Include="..\Repositories\Repositories.csproj" />
-    <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\Service\Services.csproj" />
   </ItemGroup>
 
 </Project>
