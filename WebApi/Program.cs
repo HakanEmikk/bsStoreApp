@@ -11,8 +11,9 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
 })
-    .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
-                .AddNewtonsoftJson();
+ .AddXmlDataContractSerializerFormatters()
+.AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
+.AddNewtonsoftJson();
     
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
