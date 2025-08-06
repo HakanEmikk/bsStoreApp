@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 namespace Entity.DataTransferObjets
 {
     public record BookDtoForUpdate(int Id,string Title,decimal Price);
-    
+
 }
